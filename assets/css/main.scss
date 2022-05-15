@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200&family=Poppins:wght@300&display=swap');
+
+$blue: #047EB3;
+
+
+@mixin flex($align,$justufy) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justufy;
+    
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    background-color: $blue;
+    .forms{
+        .form-a{
+            background-color: white;
+            border-radius: 7px;
+            padding:10px 8px;
+            height: 40px;
+            width: 60%;
+            overflow: hidden;
+            i{
+                color: #98a0a4ba;
+            }
+            input{
+                
+                    border: none;
+                    &:focus{
+                        outline: none;
+                    }
+        
+                    &::placeholder{
+                        color: rgb(161, 156, 156);
+                        font-size: 15px;
+                    }
+            }
+        }
+    }
+}
+
+
+.layihe{
+    height: 60px;
+    background-color: $blue;
+    padding-left: 20px;
+    @include flex(center, flex-start );
+}
+
+
+.project-card{
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+        .project-img,img{
+            height: 235px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .project-body{
+             h3{
+                 font-size: 1.2rem;
+                 font-weight: 800;
+             }
+             p{
+                 font-size: 1rem;
+                 font-weight: 500;
+             }
+        }
+}
+
+
+footer{
+    background-color: $blue;
+
+    a{
+        text-decoration: none;
+        color: white;
+        margin-top: 20px;
+        font-size: 0.8rem;
+        font-weight: 600;
+
+        &:hover{
+            color: white;
+        }
+    }
+
+    .form-c{
+        
+        border-bottom: 0.6px solid rgb(116, 102, 102);
+        height: 50px;
+        input{
+            background-color: #047EB3;
+            border: none;
+            color: white;
+            padding-bottom: 10px;
+            &:focus{
+                outline: none;
+            }
+
+            &::placeholder{
+                color: rgb(161, 156, 156);
+            }
+        }
+        .send{
+            width: 50px;
+            height: 100%;
+            background-color: white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            cursor: pointer;
+
+            span{
+                a{
+                    color: #047EB3;
+                    font-size: 15px;
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+    .social-links{
+        font-size: 20px;
+    }
+}
+

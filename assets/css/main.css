@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200&family=Poppins:wght@300&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  background-color: #047EB3;
+}
+
+nav .forms .form-a {
+  background-color: white;
+  border-radius: 7px;
+  padding: 10px 8px;
+  height: 40px;
+  width: 60%;
+  overflow: hidden;
+}
+
+nav .forms .form-a i {
+  color: #98a0a4ba;
+}
+
+nav .forms .form-a input {
+  border: none;
+}
+
+nav .forms .form-a input:focus {
+  outline: none;
+}
+
+nav .forms .form-a input::-webkit-input-placeholder {
+  color: #a19c9c;
+  font-size: 15px;
+}
+
+nav .forms .form-a input:-ms-input-placeholder {
+  color: #a19c9c;
+  font-size: 15px;
+}
+
+nav .forms .form-a input::-ms-input-placeholder {
+  color: #a19c9c;
+  font-size: 15px;
+}
+
+nav .forms .form-a input::placeholder {
+  color: #a19c9c;
+  font-size: 15px;
+}
+
+.layihe {
+  height: 60px;
+  background-color: #047EB3;
+  padding-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.project-card {
+  border-radius: 5px;
+  overflow: hidden;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.project-card .project-img, .project-card img {
+  height: 235px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.project-card .project-body h3 {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.project-card .project-body p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+footer {
+  background-color: #047EB3;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer .form-c {
+  border-bottom: 0.6px solid #746666;
+  height: 50px;
+}
+
+footer .form-c input {
+  background-color: #047EB3;
+  border: none;
+  color: white;
+  padding-bottom: 10px;
+}
+
+footer .form-c input:focus {
+  outline: none;
+}
+
+footer .form-c input::-webkit-input-placeholder {
+  color: #a19c9c;
+}
+
+footer .form-c input:-ms-input-placeholder {
+  color: #a19c9c;
+}
+
+footer .form-c input::-ms-input-placeholder {
+  color: #a19c9c;
+}
+
+footer .form-c input::placeholder {
+  color: #a19c9c;
+}
+
+footer .form-c .send {
+  width: 50px;
+  height: 100%;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+}
+
+footer .form-c .send span a {
+  color: #047EB3;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+footer .social-links {
+  font-size: 20px;
+}
+/*# sourceMappingURL=main.css.map */
